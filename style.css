@@ -1,0 +1,395 @@
+/* Estilos generales */
+* {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+    color: #0b0b0b;
+
+
+    /* background-image: linear-gradient(to left, #1f1e50, #100a31, #0e4261, #100a31, #000000); */
+    /* background-color: #333333; */
+    /* background-color: black; */
+
+}
+
+@media (min-width: 1200px) {
+    header {
+        display: flex;
+        /* justify-content:flex-start; */
+        align-items: center;
+
+        height: 60px;
+
+        padding: 20px 0;
+
+    }
+
+
+    .img-header {
+
+        align-items: start;
+        width: 12%;
+        height: 200%;
+        /* width: 250px;
+    height: 150px; */
+
+    }
+
+    header nav ul {
+        list-style: none;
+
+    }
+
+    header nav ul li {
+        padding: 40px;
+        margin-right: 20px;
+    }
+
+
+    /* Estilos para el cuerpo*/
+    .cuerpo {
+        justify-content: flex-end;
+        border-bottom: 1px solid rgba(255, 127, 80, 0.747);
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+
+    /* Estilos para la sección de Productos */
+    #productos-destacados {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 20px 0;
+
+    }
+
+    .producto {
+        width: 30%;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    .producto img {
+        display: flexbox;
+        margin: 10px;
+        padding: 10px;
+        width: 70%;
+        height: 50%;
+    }
+
+    .producto h2 {
+        font-size: 20px;
+        margin: 10px 0;
+        padding: 20px;
+        display: flexbox;
+    }
+
+    .producto p {
+        font-size: 15px;
+        margin: 10px 0;
+        padding: 20px;
+        display: flexbox;
+    }
+
+    .producto a {
+        display: flexbox;
+        font-size: 15px;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+
+    /* Estilos para el pie de página */
+    footer {
+
+        color: #fff;
+        padding: 2px 0;
+        text-align: center;
+
+    }
+
+    #enlaces-footer ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #enlaces-footer li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    #enlaces-footer a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #redes-sociales a {
+        margin: 0 10px;
+    }
+
+    /* Estilos para el copyright */
+    #copyright {
+        margin-top: 20px;
+    }
+}
+
+
+/* mas configuraciones del diseño responsivo */
+/* pantallas pequeñas */
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        /* justify-content:flex-start; */
+        align-items: center;
+
+        height: 30px;
+
+        padding: 10px 0;
+
+    }
+
+
+    .img-header {
+
+        align-items: start;
+        width: 8%;
+        height: 100%;
+        /* width: 250px;
+        height: 150px; */
+
+    }
+
+    header nav ul {
+        list-style: none;
+
+    }
+
+    header nav ul li {
+        padding: 20px;
+        margin-right: 8px;
+    }
+
+
+    /* Estilos para el cuerpo*/
+    .cuerpo {
+        justify-content: flex-end;
+        border-bottom: 1px solid rgba(255, 127, 80, 0.747);
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+
+    /* Estilos para la sección de Productos */
+    #productos-destacados {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 20px 0;
+
+    }
+
+    .producto {
+        width: 30%;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    .producto img {
+        display: flexbox;
+        margin: 10px;
+        padding: 10px;
+        width: 70%;
+        height: 50%;
+    }
+
+    .producto h2 {
+        font-size: 20px;
+        margin: 10px 0;
+        padding: 20px;
+        display: flexbox;
+    }
+
+    .producto p {
+        font-size: 15px;
+        margin: 10px 0;
+        padding: 20px;
+        display: flexbox;
+    }
+
+    .producto a {
+        display: flexbox;
+        font-size: 15px;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+
+    /* Estilos para el pie de página */
+    footer {
+
+        color: #fff;
+        padding: 2px 0;
+        text-align: center;
+
+    }
+
+
+
+    #enlaces-footer ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #enlaces-footer li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    #enlaces-footer a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #redes-sociales a {
+        margin: 0 10px;
+    }
+
+    /* Estilos para el copyright */
+    #copyright {
+        margin-top: 20px;
+    }
+}
+
+/* tablet */
+@media (min-width: 601px) and (max-width: 1299px) {
+    header {
+        display: flex;
+        /* justify-content:flex-start; */
+        align-items: center;
+
+        height: 30px;
+
+        padding: 10px;
+
+    }
+
+
+    .img-header {
+
+        align-items: start;
+        width: 10%;
+        height: 150%;
+        /* width: 250px;
+            height: 150px; */
+    }
+
+    header nav ul {
+        list-style: none;
+
+    }
+
+    header nav ul li {
+        padding: 10px;
+        margin-right: 10px;
+    }
+
+
+    /* Estilos para el cuerpo*/
+    .cuerpo {
+        justify-content: flex-end;
+        border-bottom: 1px solid rgba(255, 127, 80, 0.747);
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+
+    /* Estilos para la sección de Productos */
+    #productos-destacados {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 20px 0;
+
+    }
+
+    .producto {
+        width: 30%;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    .producto img {
+        display: flexbox;
+        margin: 10px;
+        padding: 10px;
+        width: 70%;
+        height: 50%;
+    }
+
+    .producto h2 {
+        font-size: 20px;
+        margin: 10px 0;
+        padding: 20px;
+        display: flexbox;
+    }
+
+    .producto p {
+        font-size: 15px;
+        margin: 10px 0;
+        padding: 20px;
+        display: flexbox;
+    }
+
+    .producto a {
+        display: flexbox;
+        font-size: 15px;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+
+    /* Estilos para el pie de página */
+    footer {
+
+        color: #fff;
+        padding: 2px 0;
+        text-align: center;
+
+    }
+
+
+
+    #enlaces-footer ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #enlaces-footer li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    #enlaces-footer a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #redes-sociales a {
+        margin: 0 10px;
+    }
+
+    /* Estilos para el copyright */
+    #copyright {
+        margin-top: 20px;
+    }
+}
