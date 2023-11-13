@@ -66,10 +66,10 @@
     }
 
     .producto {
-        width: 30%;
+        width: 80%;
         margin: 10px;
         padding: 10px;
-        border: 1px solid #ddd;
+        border: 2px solid #ec6969;
         text-align: center;
     }
 
@@ -101,6 +101,19 @@
         margin: 10px 0;
 
         padding: 10px;
+    }
+
+    #gana {
+        color: rgb(214, 42, 96);
+    }
+
+    .sorteo {
+        font-size: 15px;
+        margin: 10px 0;
+        padding: 20px;
+        display: flexbox;
+        text-align: center;
+        border: 2px solid #0b0909;
     }
 
 
@@ -231,6 +244,18 @@
         padding: 10px;
     }
 
+    #gana {
+        color: rgb(214, 42, 96);
+    }
+
+    .sorteo {
+        font-size: 15px;
+        margin: 10px 0;
+        padding: 20px;
+        display: flexbox;
+        text-align: center;
+        border: 2px solid #0b0909;
+    }
 
     /* Estilos para el pie de página */
     footer {
@@ -358,6 +383,18 @@
         padding: 10px;
     }
 
+    #gana {
+        color: rgb(214, 42, 96);
+    }
+
+    .sorteo {
+        font-size: 15px;
+        margin: 10px 0;
+        padding: 20px;
+        display: flexbox;
+        text-align: center;
+        border: 2px solid #0b0909;
+    }
 
     /* Estilos para el pie de página */
     footer {

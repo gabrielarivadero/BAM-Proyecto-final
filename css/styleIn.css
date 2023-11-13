@@ -1,0 +1,38 @@
+* {
+font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans NKo Unjoined', sans-serif;
+color: #0b0b0b;
+
+}
+footer {
+
+    color: #fff;
+    padding: 2px 0;
+    text-align: center;
+ 
+
+}
+
+#enlaces-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+#enlaces-footer li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#enlaces-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#redes-sociales a {
+    margin: 0 10px;
+}
+
+/* Estilos para el copyright */
+#copyright {
+    margin-top: 20px;
+}
